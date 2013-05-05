@@ -6,6 +6,12 @@
 # @version: python 2.7.4
 # Grupo Estudio Python
 
+def main():
+
+	print repite_saludo("Hola, qué tal? ", 3)
+	print repite_saludo("Cómo estás? ", 5)
+	print repite_saludo("Buenos días! ", 7)
+
 def repite_saludo(saludo, n):
 	""" Recibe como parámetro un número entero n y una cadena saludo y 
 		retorna el valor de n concatenaciones de saludo. """
@@ -15,6 +21,4 @@ def repite_saludo(saludo, n):
 
 	return concat
 
-print repite_saludo("Hola, qué tal? ", 3)
-print repite_saludo("Cómo estás? ", 5)
-print repite_saludo("Buenos días! ", 7)
+main()

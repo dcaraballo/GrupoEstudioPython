@@ -6,6 +6,12 @@
 # @version: python 2.7.4
 # Grupo Estudio Python
 
+def main():
+		
+	repite_saludo("Hola, qué tal? ", 3)
+	repite_saludo("Buenos días! ", 5)
+	repite_saludo("Cómo andás? ", 7)
+
 def repite_saludo(saludo, n):
 	""" Recibe como parámetro un número entero n y una cadena saludo y 
 		escribe por pantalla el valor de saludo n veces."""
@@ -16,7 +22,7 @@ def repite_saludo(saludo, n):
 	
 	for x in range(n):
 		print saludo
-		
-repite_saludo("Hola, qué tal? ", 3)
-repite_saludo("Buenos días! ", 5)
-repite_saludo("Cómo andás? ", 7)
+	
+	print ""
+
+main()
