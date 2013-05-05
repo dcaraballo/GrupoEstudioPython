@@ -6,7 +6,9 @@
 # @version: python 2.7.4
 # Grupo Estudio Python
 
-# Ejercicio 3.6 del libro. Corregir el programa tarifador.py para que:
+# Unidad 3 - Libro 3.6
+
+# Corregir el programa tarifador.py para que:
 # Imprima el costo en pesos y centavos, en lugar de un número decimal.
 # Informe además cuál fue el total facturado en la corrida.
 

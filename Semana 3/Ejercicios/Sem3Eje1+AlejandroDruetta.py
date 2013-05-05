@@ -7,6 +7,7 @@
 # Grupo Estudio Python
 
 # Semana 3 - Ejercicio 1
+
 # Desarrollar un programa que imprima tablas de multiplicar a partir de
 # 3 parámetros recibidos por el usuario. El primer parámetro indicará 
 # hasta que tabla debe imprimir. Los otros dos parametros serviran para
