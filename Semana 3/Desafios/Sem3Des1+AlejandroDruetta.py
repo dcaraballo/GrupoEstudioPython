@@ -15,7 +15,7 @@ def main():
 
 	numero = input("Ingrese un número natural >= 2: ")
 	
-	print es_primo(numero)
+	print "¿Es un número primo?", es_primo(numero)
 
 def es_primo(entero):
 	
